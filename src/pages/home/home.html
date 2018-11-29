@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ligas
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list inset>
+    <ion-item *ngFor="let liga of ligas">
+      <h2>{{liga.nombre}}</h2>
+      <p>{{liga.descripcion}}</p>
+    </ion-item>
+  </ion-list>
+</ion-content>
