@@ -1,7 +1,11 @@
-# ionic-slim
-Utilización de API en ionic
+# Description
+Simple App using a **API** in **Ionic**
 
-Insertar url de API en rest.ts
+# Usage
+
+Insert API url in */src/providers/rest/rest.ts*
+
+# Deploy 
 
 npm install
 ionic serve
